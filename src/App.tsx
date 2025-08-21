@@ -1,5 +1,6 @@
-import './App.css'
+import './App.css';
 import profileImage from "./assets/SF_pfp.jpg";
+import logo from "./assets/jk-favicon.png";
 
 function App() {
 
@@ -10,7 +11,10 @@ function App() {
           <img src={profileImage} alt="Profile" className="profile-img" />
 
           <div className="info">
-            <h1>Joshua Ko</h1>
+            <div className="title">
+              <img src={logo} alt="Logo" className="logo-img" />
+              <h1>Joshua Ko</h1>
+            </div>
             <p>
               I am a fourth-year computer engineering student at the University of California, Irvine. <br />
               I am interested in web development and chip architecture and I am currently looking for internships.
