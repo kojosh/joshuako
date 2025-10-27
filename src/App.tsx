@@ -21,7 +21,7 @@ function App() {
             </p>
 
             <div className="links">
-              <a href="/JoshuaKo-Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a> |
+              <a href="../public/2025-Joshua Ko-Resume-CE.pdf" target="_blank" rel="noopener noreferrer">Resume</a> |
               <a href="https://www.linkedin.com/in/joshua-doha-ko" target="_blank"> Linkedin</a> |
               <a href="https://github.com/kojosh" target="_blank"> Github</a>
             </div>
