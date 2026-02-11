@@ -3,6 +3,7 @@ import profileImage from "./assets/SF_pfp.jpg";
 import logo from "./assets/jk-favicon.png";
 
 function App() {
+  const resumeUrl = `${import.meta.env.BASE_URL}Joshua_Ko_2026_Resume.pdf`;
 
   return (
       <div className="homepage">
@@ -21,7 +22,7 @@ function App() {
             </p>
 
             <div className="links">
-              <a href="/2025-Joshua-Ko-Resume-CE.pdf" target="_blank" rel="noopener noreferrer">Resume</a> |
+              <a href={resumeUrl} target="_blank" rel="noopener noreferrer">Resume</a> |
               <a href="https://www.linkedin.com/in/joshua-doha-ko" target="_blank"> Linkedin</a> |
               <a href="https://github.com/kojosh" target="_blank"> Github</a>
             </div>
