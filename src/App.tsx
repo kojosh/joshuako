@@ -3,7 +3,7 @@ import profileImage from "./assets/SF_pfp.jpg";
 import logo from "./assets/jk-favicon.png";
 
 function App() {
-  const resumeUrl = `${import.meta.env.BASE_URL}Joshua_Ko_2026_Resume.pdf`;
+  const resumeUrl = `${import.meta.env.BASE_URL}Joshua_Ko_Resume.pdf`;
 
   return (
       <div className="homepage">
@@ -17,8 +17,8 @@ function App() {
               <h1>Joshua Ko</h1>
             </div>
             <p>
-              I am a fourth-year computer engineering student at the University of California, Irvine. <br />
-              I am interested in web development and chip architecture and I am currently looking for internships.
+              I am a computer engineering student at the University of California, Irvine. <br />
+              I am interested in embedded systems, system software, and robotics and I am currently looking for internships.
             </p>
 
             <div className="links">
