@@ -48,6 +48,12 @@ const projects: Project[] = [
     tech: ['8051 Microcontroller', 'Arduino', 'C', 'Assembly'],
     link: 'https://github.com/kojosh/smart-home-controller'
   },
+  {
+    title: 'This website!',
+    description: 'A personal website built with React and TypeScript.',
+    tech: ['React', 'TypeScript', 'Tailwind CSS', 'shadcn'],
+    link: 'https://github.com/kojosh/joshuako'
+  },
 ]
 
 export default function Projects() {
