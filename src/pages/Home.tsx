@@ -1,33 +1,26 @@
-import profileImage from "../assets/SF_pfp.jpg";
-import logo from "../assets/jk-favicon.png";
-import Navbar from "../components/Navbar";
+import Typewriter from "../components/typewriter";
 
 export default function Home() {
-  const resumeUrl = `${import.meta.env.BASE_URL}Joshua_Ko_Resume.pdf`;
-
   return (
     <div className="homepage">
       <div className="card">
-        <img src={profileImage} alt="Profile" className="profile-img" />
+        <div className="title">
+          <Typewriter
+            words={[
+              "Hi, I'm Joshua.",
+              "CpE Student.",
+              "Undergrad Researcher.",
+              "SDE Intern."
+            ]}
+          />
+        </div>
         <div className="info">
-            <Navbar />
-            <div className="title">
-            <img src={logo} alt="Logo" className="logo-img" />
-            <h1>Joshua Ko</h1>
-          </div>
           <p>
-            I am a computer engineering student at the University of California, Irvine. <br />
-            I am interested in embedded systems, system software, and robotics and I am currently looking for internships.
+            I am a computer engineering student at the University of California, Irvine. I am interested in embedded systems, system software, and robotics. <br />
+            I am an undergraduate researcher at the <a href="https://aicps.eng.uci.edu/" target="_blank" rel="noopener noreferrer">AICPS Lab </a> 
+            and SDE intern at <a href="https://www.amazon.com/" target="_blank" rel="noopener noreferrer">Amazon</a>.
+            Please feel free to check out my projects and reach out to me if you have any questions or opportunities. <br />
           </p>
-          <div className="links">
-            <a href={resumeUrl} target="_blank" rel="noopener noreferrer">Resume</a> |
-            <a href="https://www.linkedin.com/in/joshua-doha-ko" target="_blank"> Linkedin</a> |
-            <a href="https://github.com/kojosh" target="_blank"> Github</a>
-          </div>
-          <div className="email">
-            <span>📧</span>
-            <a href="mailto:joshuadohako@gmail.com">joshuadohako@gmail.com</a>
-          </div>
         </div>
       </div>
     </div>
